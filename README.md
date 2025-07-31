@@ -1,73 +1,67 @@
 
 # 🛒 Alura Store - Análisis de Ventas y Rendimiento
 
-Este proyecto tiene como objetivo ayudar al Sr. Juan a tomar una decisión estratégica sobre cuál de sus cuatro tiendas debe vender, basándose en un análisis detallado de los datos de ventas y rendimiento.
+Este proyecto tiene como objetivo principal ayudar al Sr. Juan a decidir cuál de sus cuatro tiendas debe vender para reinvertir en un nuevo negocio. A través de un análisis de datos detallado, se evaluó el rendimiento de las tiendas considerando varios factores clave de desempeño.
 
-## 📌 Descripción del Proyecto
+## 🎯 Propósito del Análisis
 
-El análisis se realizó utilizando Python y Google Colab, evaluando los siguientes aspectos de cada tienda:
+El análisis fue realizado con el fin de evaluar y comparar el rendimiento de las tiendas de Alura Store en cinco dimensiones fundamentales:
 
-1. Facturación total.
-2. Categorías más populares de productos.
-3. Calificación promedio de los clientes.
-4. Productos más y menos vendidos.
-5. Costo promedio de envío.
+1. **Facturación total por tienda**
+2. **Ventas por categoría de producto**
+3. **Calificación promedio de clientes**
+4. **Productos más y menos vendidos**
+5. **Costo promedio de envío**
 
-Basado en estos criterios, se generaron visualizaciones y un informe con recomendaciones concretas para la toma de decisiones.
+Basado en estos análisis, se presenta una recomendación sobre qué tienda representa la mejor opción para ser vendida.
 
----
+## 🗂️ Estructura del Proyecto
 
-## ⚙️ Instalación y Uso
+```
+📁 AluraStoreLatam_Agustin_Munoz.ipynb  # Notebook con el análisis completo
+📊 facturacion.png                     # Gráfico de facturación por tienda
+📊 ventas_por_categoria.png           # Gráfico de ventas por categoría
+📊 calificaciones.png                 # Gráfico de calificación promedio
+📊 envios.png                         # Gráfico de costo promedio de envío
+📄 README.md                          # Descripción del proyecto
+```
 
-### 1. Clonar el repositorio o descargar los archivos
+## 📈 Ejemplos de Gráficos e Insights
 
-Puedes descargar el archivo Colab `.ipynb` incluido en este proyecto.
+- **Facturación Total**: La tienda con menor facturación fue la Tienda 4, con aproximadamente 1.038 MM$.
+- **Calificación Promedio**: Tienda 3 tuvo la mejor evaluación de los clientes (4.05 sobre 5).
+- **Costo de Envío**: Tienda 4 tiene el menor costo de envío promedio, pero no compensa su bajo rendimiento general.
+- **Productos Más Vendidos**: Varía según tienda; por ejemplo, "Armario" en Tienda 1 y "Kit de bancas" en Tienda 3.
 
-### 2. Subir y ejecutar en Google Colab
+Ejemplo de visualización:
 
-1. Accede a [Google Colab](https://colab.research.google.com).
+![Facturación](facturacion.png)
+
+## 🚀 Cómo Ejecutar el Proyecto
+
+1. Abre [Google Colab](https://colab.research.google.com/).
 2. Carga el archivo `AluraStoreLatam_Agustin_Munoz.ipynb`.
-3. Ejecuta todas las celdas desde el menú `Runtime > Run all`.
+3. Ejecuta todas las celdas desde la parte superior.
+4. Asegúrate de estar conectado a internet para que se carguen correctamente los datos desde GitHub.
+5. Los resultados, visualizaciones y recomendaciones finales se generarán al ejecutar todas las secciones.
 
----
+## 🧩 Dependencias
 
-## 🧰 Dependencias
+Este proyecto utiliza:
 
-El código está diseñado para ejecutarse en Google Colab y requiere las siguientes bibliotecas (incluidas por defecto en Colab):
-
+- Python 3.x
 - pandas
 - matplotlib
 - seaborn
 
-No se requiere instalación manual si se ejecuta en Google Colab.
+Estas bibliotecas están disponibles por defecto en Google Colab.
+
+## ⚠️ Posibles Problemas
+
+- Asegúrate de ejecutar primero la celda de **Importación de datos** antes de avanzar a los análisis.
+- Si un gráfico no se muestra, revisa si los datos han sido correctamente cargados desde los enlaces.
 
 ---
 
-## 📁 Estructura del Proyecto
-
-- `AluraStoreLatam_Agustin_Munoz.ipynb`: notebook principal con todos los análisis, visualizaciones y conclusiones.
-- `README.md`: este archivo.
-
----
-
-## ❓ Problemas Conocidos
-
-- Asegúrese de ejecutar todas las celdas en orden si realiza análisis parcial.
-- Si ejecuta localmente, asegúrese de tener instaladas las dependencias usando:
-  ```bash
-  pip install pandas matplotlib seaborn
-  ```
-
----
-
-## 🧠 Autor y Créditos
-
-Desarrollado como parte del desafío **Alura Store LATAM - Análisis de Datos**.  
-Inspirado por los cursos de [Alura Latam](https://www.aluracursos.com/).
-
----
-
-## ✅ Resultado Final
-
-Se recomienda la venta de **Tienda 4**, basada en su menor facturación, evaluación promedio inferior y productos menos destacados en comparación con las demás tiendas.
-
+📌 **Autor:** Agustín Muñoz  
+📅 **Proyecto desarrollado para el desafío Alura LATAM - Data Science**
